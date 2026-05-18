@@ -4,7 +4,8 @@ Turn a **Galaxy Z Fold 7** (or any Android device) into a **real wireless
 extended display** for a Mac — not screen mirroring, a genuine extra monitor
 you can drag windows onto. USB-first (zero-latency via `adb`), Wi-Fi optional.
 
-![icon](assets/icon-1024.png)
+<img src="assets/icon-1024.png" alt="FoldCast" width="140">
+
 
 ## Architecture (technical)
 
