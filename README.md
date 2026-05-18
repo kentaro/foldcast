@@ -1,11 +1,23 @@
+<div align="center">
+
+<img src="assets/icon-1024.png" alt="FoldCast" width="156">
+
 # FoldCast
 
-Turn a **Galaxy Z Fold 7** (or any Android device) into a **real wireless
-extended display** for a Mac — not screen mirroring, a genuine extra monitor
-you can drag windows onto. USB-first (zero-latency via `adb`), Wi-Fi optional.
+**Turn a Galaxy Z Fold into a _real_ wireless extended display for your Mac.**
 
-<img src="assets/icon-1024.png" alt="FoldCast" width="140">
+Not screen mirroring — a genuine extra monitor you can drag windows onto.<br>
+USB‑first (zero‑latency via `adb`) · Wi‑Fi with zero‑config Bonjour discovery.
 
+![Platform](https://img.shields.io/badge/Mac-macOS%2014%2B-000?logo=apple&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-6-F05138?logo=swift&logoColor=white)
+![Android](https://img.shields.io/badge/Fold-native%20APK-3DDC84?logo=android&logoColor=white)
+![Build](https://img.shields.io/badge/build-no%20Gradle%20%C2%B7%20no%20Xcode-555)
+![Connection](https://img.shields.io/badge/connect-USB%20%2F%20Wi--Fi%20%2F%20Bonjour-3FC8FF)
+
+</div>
+
+---
 
 ## Architecture (technical)
 

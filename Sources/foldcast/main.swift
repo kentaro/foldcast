@@ -212,4 +212,8 @@ signal(SIGINT) { _ in exit(0) }
 signal(SIGTERM) { _ in exit(0) }
 atexit { /* process exit drops the CGVirtualDisplay automatically */ }
 
-dispatchMain()
+// Run the main CFRunLoop (NOT dispatchMain): the OS responsiveness check is
+// serviced (no "Not Responding" in Activity Monitor) and NetService's
+// .main run-loop scheduling for Bonjour actually works. Capture/server run
+// on their own dispatch queues, so this changes nothing functionally.
+RunLoop.main.run()
