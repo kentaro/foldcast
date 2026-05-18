@@ -13,6 +13,7 @@ let package = Package(
             name: "foldcast",
             dependencies: ["CVirtualDisplay"],
             linkerSettings: [
+                .linkedFramework("AppKit"),
                 .linkedFramework("CoreGraphics"),
                 .linkedFramework("ScreenCaptureKit"),
                 .linkedFramework("CoreMedia"),
