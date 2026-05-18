@@ -1,0 +1,13 @@
+# build artifacts
+.build/
+*.xcodeproj
+FoldCast.app/
+android/build/
+android/foldcast.apk
+
+# os / editor junk
+.DS_Store
+*.log
+
+# apk signature artifact
+*.idsig
